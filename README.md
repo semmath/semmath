@@ -37,6 +37,12 @@ Under development. Many things waiting to be done.
 
 ## Contribution
 
+### 0. Organization
+
+You can apply to join the [semmath development team](https://github.com/semmath) through email or private message, and become a member of the development team after approval.
+
+The following steps apply to those who are not members of the development team.
+
 ### 1. Issues
 
 Propose a discussion in the Issues.
@@ -70,4 +76,4 @@ For the overall framework, considering the current scale, any good ideas can be 
 
 ### 3. Merge
 
-After confirmation by the development group, the changes will be merged into the main branch.
+After confirmation by the members of the development team, the changes will be merged into the main branch.
