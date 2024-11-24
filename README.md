@@ -14,7 +14,7 @@
 
 - Resolve symbol conflicts
 
-  In the field of mathematics, there are often situations where there are conflicts between symbols. For example, when writing, it is often difficult to distinguish between various complex variants such as cursive, italic, and Latin, which are often used when all the commonly used symbols are exhausted. SemMath adopts the naming convention in the computer field, which can solve the problem of symbol conflicts. Not only does it make the symbols more intuitive and easy to understand, but it also allows for easy writing in environments without $\LaTeX$.
+  In the field of mathematics, there are often situations where there are not enough symbols or conflicts between symbols, such as finding that all commonly used symbols have been used up while writing, and having to use various complex variants -- cursive, bold, double-lined, etc. -- which are often difficult to distinguish at a glance. SemMath adopts the naming convention in the computer field, which can solve the problem of symbol conflicts. Not only does it make the symbols more intuitive and easy to understand, but it also allows for easy writing in environments without $\LaTeX$.
 
 ### When?
 
