@@ -4,13 +4,34 @@
 
 ## Brief
 
-"Semantic Mathematics" or "SemMath" contains a set of rules and requirements for how to write mathematical symbols (when using computers), aimed at standardizing the mathematical symbol system, eliminating symbol ambiguity, reducing reading barriers, and improving the accuracy and readability of mathematical articles.
+"Semantic Mathematics" or "SemMath" contains a set of rules and requirements that specify how to write mathematical symbols, aiming to standardize the mathematical notation system and improve the accuracy and readability of mathematical articles.
+
+### Why?
+
+- Eliminate symbol ambiguity
+
+  The same symbol may have different meanings in different contexts. For example, does $\sin^{-1}(x)$ represent $\frac{1}{sin(x)}$ or $\arcsin(x)$? SemMath avoids possible confusion in understanding through clear rules.
+
+- Resolve symbol conflicts
+
+  In the field of mathematics, there are often situations where there are conflicts between symbols. For example, when writing, it is often difficult to distinguish between various complex variants such as cursive, italic, and Latin, which are often used when all the commonly used symbols are exhausted. SemMath adopts the naming convention in the computer field, which can solve the problem of symbol conflicts. Not only does it make the symbols more intuitive and easy to understand, but it also allows for easy writing in environments without $\LaTeX$.
+
+### When?
+
+- When working with others or facing the public.
+- When writing math-related articles on computers.
+
+### How?
+
+- It's still under development at this stage, so you may need to read all the drafts to make sure you understand the rules.
+- After the 1.0.0 version is released, you only need to read the articles in standards.
+- In the later stage, we will consider developing dedicated open source software to automatically detect and update the symbol systems in existing mathematical articles; Type validity verification and variable name auto-completion are performed during writing articles.
 
 ## Current Status
 
 CreateDate: 2024.11.24
 
-Version: 0.0.2
+Version: 0.0.3
 
 Under development. Many things waiting to be done.
 
