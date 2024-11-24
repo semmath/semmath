@@ -27,7 +27,7 @@
 - After the 1.0.0 version is released, you only need to read the articles in standards.
 - In the later stage, we will consider developing dedicated open source software to automatically detect and update the symbol systems in existing mathematical articles; Type validity verification and variable name auto-completion are performed during writing articles.
 
-## Current Status
+## Status
 
 CreateDate: 2024.11.24
 
@@ -37,11 +37,15 @@ Under development. Many things waiting to be done.
 
 ## Contribution
 
-1. Propose a discussion in the Issues.
+### 1. Issues
 
-If the modifications are quite clear and concise, then there is no need to discuss them.
+Propose a discussion in the Issues.
 
-2. Submit Pull Requests.
+If the modifications are quite clear and concise, you can skip this step.
+
+### 2. Pull Requests
+
+Submit Pull Requests.
 
 For the specific content of the specification, adopt a similar method to [RFC](https://www.rfc-editor.org/) as the following:
 
@@ -62,6 +66,8 @@ For the specific content of the specification, adopt a similar method to [RFC](h
 
 - Each article has its own version, independent of the "SemMath" version.
 
-Regarding the overall framework, given the current scale, any good ideas can be directly submitted (after discussion) for changes. Whenever the overall framework undergoes phased updates, the patch version number or minor version number of the "SemMath" will be correspondingly incremented. Once the overall framework becomes basically stable and the content is essentially complete, version 1.0.0 will be released, and the "standards" directory will be enabled. Stable and complete articles will transition from the `draft` status to the `standard` status.
+For the overall framework, considering the current scale, any good ideas can be directly submitted (after discussion) for changes. Whenever the overall framework undergoes phased updates, the patch version number or minor version number of the "SemMath" will be correspondingly incremented. Once the overall framework becomes basically stable and the content is essentially complete, version 1.0.0 will be released, and the "standards" directory will be enabled. Stable and complete articles will transition from the `draft` status to the `standard` status.
 
-3. After passing, it can merge into the main branch.
+### 3. Merge
+
+After confirmation by the development group, the changes will be merged into the main branch.
